@@ -26,10 +26,14 @@
 ```shell
 git clone https://github.com/5ire-tech/5ire-node-installer.git
 ```
+![image](https://user-images.githubusercontent.com/101635385/207454867-937a7428-5098-49bf-b61e-28298f5a1d09.png)
+
 
 ```shell
 cd 5ire-node-installer
 ```
+![image](https://user-images.githubusercontent.com/101635385/207454912-1c875400-3d77-421f-9c69-b1d31122c008.png)
+
 
 ```shell
 screen -S 5ire
