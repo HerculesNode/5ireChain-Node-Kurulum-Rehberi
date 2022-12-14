@@ -5,6 +5,10 @@
 
 <h1 align="center"> Bu Rehber 5ire Tarafından Mail alan Seçilen Kişiler içindir. Seçilmediyseniz Kurulum Yapmayınız.
 
+## 🟢 Linkler:
+ * [Telegram Destek Kanalı](https://t.me/x5hirechain)
+ * [Twitter](https://twitter.com/Hercules4413)
+
 ## 🟢 Sistem Gereksinimleri
 
 #Minimum Gereksinimler
@@ -123,6 +127,5 @@ Senkronize işlemleri başladı ve biraz uzun sürebilir.
 
  ## Kurulum şimdilik Bu kadar
  
- <br>
-[Twitter](https://twitter.com/Hercules4413)
+
 
