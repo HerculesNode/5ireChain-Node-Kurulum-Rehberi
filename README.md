@@ -44,7 +44,7 @@
 
 
 
- ## 🟢 Kurulum
+ ## 🟢 - 1 -
  
  Biraz önce aldığımız şifre ile giriş yapacağız
  
@@ -58,8 +58,14 @@
 ```shell
 git clone https://github.com/5ire-tech/5ire-node-installer.git
 ```
-![image](https://user-images.githubusercontent.com/101635385/207454867-937a7428-5098-49bf-b61e-28298f5a1d09.png)
 
+
+ ## 🟢 - 2 -
+
+
+Şimdi, '5ire-node-installer' adlı bir klasör görebilirsiniz, o klasöre gidin ve 5irechain-node-installer adlı bir dosya var.
+<br>
+Aşağıdaki komutu çalıştırarak dizine gidin:
 
 ```shell
 cd 5ire-node-installer
@@ -67,14 +73,56 @@ cd 5ire-node-installer
 ![image](https://user-images.githubusercontent.com/101635385/207454912-1c875400-3d77-421f-9c69-b1d31122c008.png)
 
 
+<br>
+Screen oluşturalım
+
 ```shell
 screen -S 5ire
 ```
+
+ ## 🟢 - 3 -
+ 
+ <br>
+izinleri verelim
+
 
 ```shell
 chmod +x 5irechain-node-installer
 ```
 
+ ## 🟢 - 4 -
+ 
+ <br>
+Kurulumu başlatalım
+
 ```shell
 ./5irechain-node-installer
 ```
+
+ ## 🟢 - 5 -
+ 
+ <br>
+Kurulum başladı
+
+![image](https://user-images.githubusercontent.com/101635385/207533112-f6c401f8-9ef2-4636-8cde-ea56aa6277fe.png)
+
+ ## 🟢 - 6 -
+ 
+ <br>
+Terminal isim soracaktır Node isminizi Giriniz
+
+![image](https://user-images.githubusercontent.com/101635385/207533241-921f2f9b-2694-458a-bacc-9cf82bdad102.png)
+
+ ## 🟢 - 7 -
+ 
+ <br>
+Senkronize işlemleri başladı ve biraz uzun sürebilir.
+
+![image](https://user-images.githubusercontent.com/101635385/207533321-1384e2bf-d1b3-4c0e-a145-f0502ab3b1b3.png)
+
+
+ ## Kurulum şimdilik Bu kadar
+ 
+ <br>
+[Twitter](https://twitter.com/Hercules4413)
+
