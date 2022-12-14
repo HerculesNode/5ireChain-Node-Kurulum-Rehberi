@@ -22,7 +22,39 @@
 * Bellek : 32GB
 * Depolama : 100GB SSD
 
+
+
+ ## 🟢 Github Giriş işlemi
+
+* Öncelikle bir Github hesabına ihtiyacınız var ve özel token almanız gerekiyor. Adımlar aşağıdaki gibi.
+
+* Settings Developer settings  Kısmına Giriyoruz
+* Generate New Token ( Classic )  Tıklıyoruz 
+* Açılan Sayfadan  workflow ve notifications  kısmını işaretliyoruz Ardından Genarate Token diyoruz
+* Bize bir token verecek bunu kopyalayın bu şifreniz. 
+
+
+
+![image](https://user-images.githubusercontent.com/101635385/207528783-e8e8b1bd-8161-49a0-be96-3d10f69384eb.png)
+
+
+![image](https://user-images.githubusercontent.com/101635385/207528716-01fe8785-6070-4cec-b45f-ada8ba992d2c.png)
+
+
+
+
+
  ## 🟢 Kurulum
+ 
+ Biraz önce aldığımız şifre ile giriş yapacağız
+ 
+ ![image](https://user-images.githubusercontent.com/101635385/207529622-0b3cde55-aa33-4fb7-a3fc-a96f35bd4ccc.png)
+
+* Username kısmına github kullanıcı adınız
+* Şifre kısmına aldığınız token girip entera basın.
+ 
+ 
+ 
 ```shell
 git clone https://github.com/5ire-tech/5ire-node-installer.git
 ```
