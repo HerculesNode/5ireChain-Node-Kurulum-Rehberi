@@ -3,7 +3,7 @@
 <h1 align="center"> Selamlar,  5ireChain Testnet Kurulum rehberi by Hercules
 </h1>
 
-
+<h1 align="center"> Bu Rehber 5ire Tarafından Mail alan Seçilen Kişiler içindir. Seçilmediyseniz Kurulum Yapmayınız.
 
 ## 🟢 Sistem Gereksinimleri
 
