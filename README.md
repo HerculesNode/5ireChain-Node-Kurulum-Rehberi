@@ -27,7 +27,7 @@
 * Çekirdek: 8
 * Bellek : 32GB
 * Depolama : 100GB SSD
-
+<br><br><br><br>
 
  ## 🟢 - Aşağıdaki komutu kullanarak Docker görüntüsünü indirin -
  
@@ -35,20 +35,35 @@
 docker pull 5irechain/5ire-thunder-node:0.10
 ```
 
+<br><br><br>
 
- ## 🟢 - Aşağıdaki komutu kullanarak Docker görüntüsünü indirin -
+ ## 🟢 - Full Node Kurmak için Bu kodu kullanın 
  
  * Tam bir düğüm için aşağıdaki komutu çalıştırın
+
+<br>  
+ Burada Sadce kodda bulunan -name NODE-İSMİNİZ  Bu kısma kendi isminizi yazacaksınız
  
 ```shell
-docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:0.10 --port 30333  --ws-external --ws-port 9944 --rpc-external --rpc-port 9933 --rpc-cors all --no-telemetry --name my-5ire-full-node --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive
+docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:0.10 --port 30333  --ws-external --ws-port 9944 --rpc-external --rpc-port 9933 --rpc-cors all --no-telemetry --name NODE-İSMİNİZ --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive
 ```
-
+ <br><br><br>
+ 
+ ## 🟢 - Doğrulayıcı Node Kurmak için Bu kodu kullanın 
+ 
  * Doğrulayıcı düğüm için aşağıdaki komutu çalıştırın:
  
+ <br>  Burada Sadce kodda bulunan -name NODE-İSMİNİZ  Bu kısma kendi isminizi yazacaksınız
+ 
 ```shell
-docker run -p 30333:30333 5irechain/5ire-thunder-node:0.10 --port 30333 --no-telemetry --name my-5ire-validator --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive --validator
+docker run -p 30333:30333 5irechain/5ire-thunder-node:0.10 --port 30333 --no-telemetry --name NODE-İSMİNİZ --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive --validator
 ```
+<br>
+<br>
+ 
+ ![image](https://user-images.githubusercontent.com/101635385/208252070-92865318-c996-4013-9e7b-2217ccc8369d.png)
+ 
+ <br>
 
 
 ![image](https://user-images.githubusercontent.com/101635385/208251835-12619bbf-e55f-4ae8-ab02-d5774d95c668.png)
