@@ -34,6 +34,10 @@
 ```shell
 docker pull 5irechain/5ire-thunder-node:0.10
 ```
+ 
+```shell
+screen -S 5ire
+``` 
 
 <br><br><br>
 
