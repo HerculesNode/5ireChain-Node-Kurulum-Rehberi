@@ -29,7 +29,40 @@
 * Depolama : 100GB SSD
 
 
+ ## 🟢 - Aşağıdaki komutu kullanarak Docker görüntüsünü indirin -
+ 
+```shell
+docker pull 5irechain/5ire-thunder-node:0.10
+```
 
+
+ ## 🟢 - Aşağıdaki komutu kullanarak Docker görüntüsünü indirin -
+ 
+ * Tam bir düğüm için aşağıdaki komutu çalıştırın
+ 
+```shell
+docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:0.10 --port 30333  --ws-external --ws-port 9944 --rpc-external --rpc-port 9933 --rpc-cors all --no-telemetry --name my-5ire-full-node --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive
+```
+
+ * Doğrulayıcı düğüm için aşağıdaki komutu çalıştırın:
+ 
+```shell
+docker run -p 30333:30333 5irechain/5ire-thunder-node:0.10 --port 30333 --no-telemetry --name my-5ire-validator --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive --validator
+```
+
+
+![image](https://user-images.githubusercontent.com/101635385/208251835-12619bbf-e55f-4ae8-ab02-d5774d95c668.png)
+
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+ ## 🟢 Şimdilik Aşağıdaki Kodlar Kullanılmıyor....
+ <br>
  ## 🟢 Github Giriş işlemi
 
 * Öncelikle bir Github hesabına ihtiyacınız var ve özel token almanız gerekiyor. Adımlar aşağıdaki gibi.
