@@ -49,7 +49,7 @@ screen -S 5ire
  Burada Sadce kodda bulunan -name NODE-İSMİNİZ  Bu kısma kendi isminizi yazacaksınız
  
 ```shell
-docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:0.10 --port 30333  --ws-external --ws-port 9944 --rpc-external --rpc-port 9933 --rpc-cors all --no-telemetry --name NODE-İSMİNİZ --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive
+docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:0.12 --port 30333 --chain /5ire/thunder-chain-spec.json  --ws-external --ws-port 9944 --rpc-external --rpc-port 9933 --rpc-cors all --no-telemetry --name my-5ire-full-node --bootnodes /ip4/3.128.99.18/tcp/30333/p2p/12D3KooWSTawLxMkCoRMyzALFegVwp7YsNVJqh8D2p7pVJDqQLhm --pruning archive
 ```
  <br><br><br>
  
@@ -60,7 +60,7 @@ docker run -p 30333:30333 -p 9933:9933 -p 9944:9944 5irechain/5ire-thunder-node:
  <br>  Burada Sadce kodda bulunan -name NODE-İSMİNİZ  Bu kısma kendi isminizi yazacaksınız
  
 ```shell
-docker run -p 30333:30333 5irechain/5ire-thunder-node:0.10 --port 30333 --no-telemetry --name NODE-İSMİNİZ --bootnodes /ip4/3.19.122.7/tcp/30333/p2p/12D3KooWNLQPtTkKwapACfMas7vyM4gujwnevxfgXUyTGno3bDpY --pruning archive --validator
+docker run -p 30333:30333 5irechain/5ire-thunder-node:0.12 --port 30333 --no-telemetry --name my-5ire-validator  --chain /5ire/thunder-chain-spec.json  --bootnodes /ip4/3.128.99.18/tcp/30333/p2p/12D3KooWSTawLxMkCoRMyzALFegVwp7YsNVJqh8D2p7pVJDqQLhm --pruning archive --validator
 ```
 <br>
 <br>
