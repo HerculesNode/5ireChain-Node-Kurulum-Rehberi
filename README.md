@@ -32,7 +32,7 @@
  ## 🟢 - Aşağıdaki komutu kullanarak Docker görüntüsünü indirin -
  
 ```shell
-docker pull 5irechain/5ire-thunder-node:0.10
+docker pull 5irechain/5ire-thunder-node:0.12
 ```
  
 ```shell
